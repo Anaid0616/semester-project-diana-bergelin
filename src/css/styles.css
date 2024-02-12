@@ -62,7 +62,7 @@ body {
   /* index */
 
   .museum-start {
-    background-image: url(/images/sciencemuseum.jpg);
+    background-image: url(../images/sciencemuseum.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
