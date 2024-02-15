@@ -16,8 +16,14 @@ body {
     font-family: 'Mitr', verdana, sans-serif;
   }
 
+  h1, h2, h3, h5, h6 {
+    text-transform: uppercase;
+    font-family: 'Righteous', verdana, sans-serif;
+  }
+
   
   /* header */
+  
   header {
     font-family: 'Righteous', verdana, sans-serif;
     position: sticky;
@@ -32,10 +38,11 @@ body {
     align-items: center;
     min-height: 100px;
     margin: 0 40px 0 40px; 
-    .logo {
-        max-width: 240px;
-    }
   }
+
+  .header .logo {
+    max-width: 240px;
+}
 
   .header-nav ul {
     list-style: none;
@@ -55,34 +62,72 @@ body {
   .header-nav a:hover {
     text-decoration: underline;
   }
-  
-
 
 
   /* index */
 
   .museum-start {
-    background-image: url(../images/sciencemuseum.jpg);
+    background-image: url(/images/sciencemuseum.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: right;
-    background-position-y: bottom;
+    background-position-y: center;
     min-height: 500px; 
     margin-top: -16px;
   }
+
+.start-content h1 {
+   font-size:3rem;
+   margin-block: auto;
+   margin-bottom: -18px;
+}
+
+.cta-button {
+    background-color: #6383D5;
+    color: black;
+    font-family: 'Righteous', verdana, sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    text-decoration: none;
+}
+
 .museum-start .start-content {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     position: absolute;
-    top: 70px;
-    left: 2%;
+    max-width: 500px;
+    top: 150px;
+    left: 32%;
+}
+.explore-together {
+    display: flex;
 }
 
+  /* contact */
+
+  .start-headline {
+    background-color: black;
+    color: #ffffff;
+  }
+
+
+
+    /* exhibitions */
+
+      /* contribution */
+
+        /* privacy */
+
+          /* terms */
 
 
     /* footer */
+
     footer {
         font-family:  'Righteous', verdana, sans-serif;
         background-color: black;
@@ -92,6 +137,35 @@ body {
     .footer {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: top;    
+        justify-content: space-between;
+        text-align: center;
+        margin: 0 110px 0 110px;
     }
+
+    .footer h6 {
+        font-size: 1rem;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+   
+    .logo-footer {
+        max-width: 200px;
+        margin: 20px 45px 30px 0;
+    }
+
+    .social-media-icons {
+        padding-left: 25px;
+        padding-right: 25px;
+    } 
+    #fb-icon {
+        padding-right: 4px;
+    }
+
+    .copy {
+        font-family: 'Mitr', verdana, sans-serif;
+        font-weight: 200;
+        font-size: 0.90rem;
+        padding-top: 1px;
+        padding-bottom: 8px;
+        border-top: 1px solid #ffffff;
+      }
