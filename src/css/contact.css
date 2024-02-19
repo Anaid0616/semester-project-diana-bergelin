@@ -1,11 +1,40 @@
 @import url("./styles.css");
 
-.hours{
+.contact {
+    padding: 2% 10% 5% 10%;
+}
+
+.contact h2 {
+    margin-top: 50px;
+    margin-bottom: -8px;
+}
+
+.admission-hours h2 {
+    margin-top: 30px;
+}
+
+.hours {
     background-color: #7FC3E0;
+    max-width: 350px;
+    padding: 0 30px 30px 80px;
+    font-family: 'Righteous', verdana, sans-serif;
+    font-weight: 300;
+    margin-left: 6%;
+}
+
+.hours p {
+    line-height: 10px;
+}
+
+.admission-text {
+    max-width: 60%;
+    padding-right: 40px;
 }
 
 .form-details {
     background-color: #FF8484;
+    padding: 2% 0 4% 9%;
+    margin-bottom: 6%;
 }
 
 .form-details input {
@@ -16,6 +45,11 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  .form-details input, .form-details #message {
+    font-family: 'Mitr', verdana, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
   
   .form-details #message {
     padding: 14px 50px 4px 10px;
@@ -50,7 +84,17 @@
 
       /* media queries */
 
-      @media (min-width: 600px){
+      @media screen and (min-width: 600px){
+        .admission-hours {
+            display: flex;
+        }
+        .admission-text {
+            flex: 1.30;
+        }
+        .hours {
+            flex: 1
+        }
+
         .contact-details {
             display: flex;
             align-items: center;
@@ -58,5 +102,5 @@
            
            .form-details, .contact-map {
                flex: 1;
-           }  
+           } 
       }

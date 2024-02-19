@@ -1,1 +1,14 @@
 @import url("./styles.css");
+
+.start h1 {
+    margin-bottom: -20px;
+    }
+
+    .terms {
+        padding: 2% 15% 5% 15%;
+    }
+    
+    .terms h2 {
+       margin-top: 50px;
+       margin-bottom: -8px;
+    }
