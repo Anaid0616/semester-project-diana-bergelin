@@ -38,23 +38,48 @@ body {
 
   .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: normal;
     align-items: center;
+    position: relative;
     min-height: 100px;
-    margin: 0 40px 0 40px; 
+    margin: 0 6% 0 6%; 
   }
 
   .header .logo {
     max-width: 240px;
+    margin-right: 10px;
 }
+
+  .hamburger-icon {
+  color: white;
+  padding: 10px;
+  margin-right: 12%;
+}
+
+  .header-nav {
+   display: none;
+   position: fixed;
+   top: 100px;
+   background-color: black;
+   z-index: 1000;
+   left: 0;
+  }
 
   .header-nav ul {
     list-style: none;
   }
   
   .header-nav li {
-    display: inline-block;
-    padding: 0 15px 0 15px;
+    display: block;
+    padding: 40px 60px 40px 20px;
+  }
+
+  #checkbox-menu {
+    display: none;
+  }
+
+  #checkbox-menu:checked ~ .header-nav {
+    display: block;
   }
   
   .header-nav a {
@@ -82,7 +107,7 @@ body {
   }
 
 .start-content h1 {
-   font-size:3rem;
+   font-size: 2.75rem;
    margin-block: auto;
    margin-bottom: -18px;
 }
@@ -105,8 +130,9 @@ body {
     align-items: center;
     position: absolute;
     max-width: 500px;
-    top: 150px;
-    left: 32%;
+    top: 146px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .start-container {
@@ -125,6 +151,9 @@ body {
 }
 
 .together {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 4%;
     margin-bottom: 4%;
 }
@@ -444,21 +473,53 @@ body {
 
        /* media queries */
 
-      @media screen and (min-width: 600px) {
-        .together {
-           display: flex;
-           justify-content: center;
-       }
+      @media screen and (max-width: 400px) {
+      .header .logo {
+          max-width: 200px;
+          margin-right: 0px;
+      }
+      .hamburger-icon {
+         padding: 10px;
+         margin-right: 2%;
+      }
+    }
 
-       .explore {
+      @media screen and (min-width: 600px) {
+        .header {
+            justify-content: space-between;
+        }
+
+        .hamburger-icon {
+            margin-right: 0px;
+        }
+          
+        .header-nav {
+            display: block;
+            position: static;
+          }
+         
+        .header-nav li {
+             display: inline-block;
+             padding: 0 15px 0 15px;
+         }
+         
+        .header label {
+           display: none;
+         } 
+         
+        .together {
+           flex-direction: row;
+        }
+
+        .explore {
           display: flex;
           justify-content: center;
           gap: 30px;
-       }
+        }
 
        .stars-club {
-        display: flex;
-        justify-content: center;
+         display: flex;
+         justify-content: center;
        }
     
        .news-wrapper {
@@ -472,5 +533,14 @@ body {
         justify-content: center;
        }
   }
-
-      
+         
+     @media screen and (min-width: 800px) {
+      .museum-start .start-content {
+        top: 150px;
+        left: 32%;
+        transform: translateX(0);
+     }
+     .start-content h1 {
+      font-size: 3rem;
+    }
+  }
