@@ -1,40 +1,111 @@
 @import url("./styles.css");
 
 .contact {
-    padding: 2% 10% 5% 10%;
+   
 }
 
 .contact h2 {
-    margin-top: 50px;
-    margin-bottom: -8px;
-}
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
 
-.admission-hours h2 {
-    margin-top: 30px;
-}
+.admission {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .admission-hours {
+    display: flex;
+  }
+  
+  .admission-content {
+    background-color: black;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+  }
+  
+  .admission-content h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-bottom: 0;
+  }
+  
+  #pink {
+    background-color: #FF8484;
+  }
+  
+  .admission-content h2, #purple, #pink {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .admission-content p {
+    margin-bottom: 10px;
+  }
+  
+  .ad-text {
+    margin: 10px;
+  }
+  
+  .admission-content #purple, #pink {
+    color: black;
+  }
+  
+  .admission-img-container {
+    display: flex;
+    background-image: url(/images/stairs.jpg);
+    position:relative;
+    background-size: cover;
+    width: 600px;
+    min-height: 450px;
+  }
 
 .hours {
+    position: absolute;
+    flex: 1;
+    margin-top: 75px;
+    margin-left: 23%;
     background-color: #7FC3E0;
-    max-width: 350px;
-    padding: 0 30px 30px 80px;
+    padding: 20px 20px 30px 20px;
     font-family: 'Righteous', verdana, sans-serif;
     font-weight: 300;
-    margin-left: 6%;
+    max-height: 350px;
+}
+
+.hours h2 {
+    margin-left: 20px;
 }
 
 .hours p {
     line-height: 10px;
 }
 
-.admission-text {
-    max-width: 60%;
-    padding-right: 40px;
+.text-content {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    gap: 30px;
+}
+
+.more {
+    background-color: #D9D9D9;
+    min-width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contact-wrapper {
+    
 }
 
 .form-details {
     background-color: #FF8484;
-    padding: 2% 0 4% 9%;
-    margin-bottom: 6%;
+    padding: 30px 0px 50px 15%;
 }
 
 .form-details input {
@@ -45,6 +116,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .form-details input, .form-details #message {
     font-family: 'Mitr', verdana, sans-serif;
     font-size: 0.85rem;
@@ -57,8 +129,6 @@
     width: 80%;
     outline: none;
     min-height: 150px;
-    margin-bottom: 23px;
-    margin-top: 12px;
   } 
   
   .hover:hover {
@@ -72,35 +142,107 @@
     .form-labels {
         display: block;
     }
+
     #form-button {
         display: block;
+    }
+
+    .form-details, .contact-map {
+        flex: 1;
+    }
+
+    .location {
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+
+    .location h3, p {
+        padding-left: 20px;
+    }
+
+    .location h3 {
+        padding-top: 20px;
+        font-size: 1.1rem;
+    }
+
+    .location p {
+        padding-bottom: 30px;
+        margin-bottom: -10px;
     }
 
     .google-map {
         border: 0;
         width: 100%;
-        height: 500px;
+        height: 540px;
     }
 
       /* media queries */
 
       @media screen and (min-width: 600px){
-        .admission-hours {
+        .admission {
             display: flex;
+            justify-content: center;
+           }
+
+        .more {
+            margin-top: 0px;
+            min-width: 350px;
         }
-        .admission-text {
-            flex: 1.30;
-        }
-        .hours {
-            flex: 1
-        }
+
+        .text-content {
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+           }
 
         .contact-details {
             display: flex;
             align-items: center;
            }
            
-           .form-details, .contact-map {
+        .form-details, .contact-map {
                flex: 1;
            } 
-      }
+
+        .form-details {
+                padding: 50px 0px 50px 8%;
+            }
+        }
+        
+        @media screen and (min-width: 601px) and (max-width: 800px) {
+        .admission-img-container {
+            max-width: 400px;
+        }
+    }
+      
+        @media screen and (min-width: 750px){
+        .admission {
+            }
+
+        .more {
+            flex-wrap: nowrap;
+               justify-content: center;
+                margin-top: 0px;
+                max-width: 350px;
+                margin: 0;
+            }
+            
+
+            .contact-wrapper {
+                margin: 30px 100px 60px 100px;
+            }
+        }
+
+        @media screen and (min-width: 800px) and (max-width: 1000px) {
+           
+        }
+
+        @media screen and (min-width: 1000px) {
+            .contact {
+                margin-left: 100px;
+                margin-right: 100px;
+             }
+            }
+        
+        
