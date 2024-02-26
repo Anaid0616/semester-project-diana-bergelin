@@ -96,7 +96,7 @@ body {
   /* index */
 
   .museum-start {
-    background-image: url(../images/mörk.jpg);
+    background-image: url(/images/mörk.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
