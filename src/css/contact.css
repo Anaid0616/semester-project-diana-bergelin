@@ -10,12 +10,13 @@
     }
 
 .admission {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .admission-hours {
     display: flex;
+    justify-content: end;
   }
   
   .admission-content {
@@ -68,7 +69,6 @@
     position: absolute;
     flex: 1;
     margin-top: 75px;
-    margin-left: 23%;
     background-color: #7FC3E0;
     padding: 20px 20px 30px 20px;
     font-family: 'Righteous', verdana, sans-serif;
@@ -86,19 +86,21 @@
 
 .text-content {
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     text-align: center;
     gap: 30px;
 }
 
 .more {
     background-color: #D9D9D9;
-    min-width: 300px;
+    width: 100%;
     height: 300px;
     padding: 20px;
     margin-top: 20px;
 }
-
+.none {
+  background-color: white;
+}
 .contact-wrapper {
     
 }
@@ -174,16 +176,17 @@
     .google-map {
         border: 0;
         width: 100%;
-        height: 540px;
+        height: 520px;
+        margin-bottom: 40px;
     }
 
       /* media queries */
 
       @media screen and (min-width: 600px){
         .admission {
-            display: flex;
-            justify-content: center;
-           }
+          display: flex;
+          justify-content: center;
+        }
 
         .more {
             margin-top: 0px;
@@ -195,54 +198,81 @@
              flex-wrap: wrap;
              justify-content: center;
            }
-
-        .contact-details {
-            display: flex;
-            align-items: center;
-           }
-           
-        .form-details, .contact-map {
-               flex: 1;
-           } 
-
-        .form-details {
-                padding: 50px 0px 50px 8%;
-            }
-        }
-        
-        @media screen and (min-width: 601px) and (max-width: 800px) {
-        .admission-img-container {
-            max-width: 400px;
-        }
-    }
+          }
       
-        @media screen and (min-width: 750px){
+        
+        @media screen and (min-width: 601px) and (max-width: 850px) {
+          .admission-img-container {
+               max-width: 360px;
+    }
+  }
+
+       @media screen and (max-width: 768px){
+          .none {
+            display: none;
+          }
+       }
+      
+        @media screen and (min-width: 768px){
         .admission {
             }
 
         .more {
-            flex-wrap: nowrap;
+               flex-wrap: wrap;
                justify-content: center;
                 margin-top: 0px;
                 max-width: 350px;
                 margin: 0;
             }
-            
+
+            .text-content {
+            flex: 1 1 350px; 
+            }
 
             .contact-wrapper {
-                margin: 30px 100px 60px 100px;
+                padding: 0 20px;
             }
-        }
 
-        @media screen and (min-width: 800px) and (max-width: 1000px) {
-           
-        }
-
-        @media screen and (min-width: 1000px) {
-            .contact {
-                margin-left: 100px;
-                margin-right: 100px;
+            .contact-details {
+              display: flex;
+              align-items: center;
+              margin-bottom: 40px;
              }
+             
+          .form-details, .contact-map {
+                 flex: 1;
+             } 
+
+             .google-map {
+              margin-bottom: 0px;
+             }
+
+             .location {
+              margin-top: -6px;
+              padding-right: 8px;
+             }
+  
+          .form-details {
+                  padding: 50px 0px 50px 8%;
+              }
+        }
+
+        @media screen and (min-width: 1310px) {
+           .none {
+            display: none;
+           }
+        }
+
+            @media screen and (min-width: 769px) and (max-width: 1100px) {
+              .admission {
+                padding: 0 20px;
+              }
+            }
+
+            @media screen and (min-width: 1101px)  {
+              .admission, .contact-details {
+                margin: 60px 80px;
+              }
             }
         
         
