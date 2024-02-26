@@ -1,9 +1,5 @@
 @import url("./styles.css");
 
-.contact {
-   
-}
-
 .contact h2 {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -58,7 +54,7 @@
   
   .admission-img-container {
     display: flex;
-    background-image: url(/images/stairs.jpg);
+    background-image: url(../../images/stairs.jpg);
     position:relative;
     background-size: cover;
     width: 600px;
@@ -100,9 +96,6 @@
 }
 .none {
   background-color: white;
-}
-.contact-wrapper {
-    
 }
 
 .form-details {
