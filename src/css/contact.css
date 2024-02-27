@@ -25,7 +25,7 @@
   .admission-content h2 {
     font-size: 1.5rem;
     font-weight: 300;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 0;
   }
   
@@ -50,6 +50,7 @@
   
   .admission-content #purple, #pink {
     color: black;
+    margin-left: 0px;
   }
   
   .admission-img-container {
@@ -140,6 +141,7 @@
 
     #form-button {
         display: block;
+        margin-top: 10px;
     }
 
     .form-details, .contact-map {
@@ -205,10 +207,6 @@
             display: none;
           }
        }
-      
-        @media screen and (min-width: 768px){
-        .admission {
-            }
 
         .more {
                flex-wrap: wrap;
@@ -248,7 +246,7 @@
           .form-details {
                   padding: 50px 0px 50px 8%;
               }
-        }
+        
 
         @media screen and (min-width: 1310px) {
            .none {
@@ -256,16 +254,28 @@
            }
         }
 
-            @media screen and (min-width: 769px) and (max-width: 1100px) {
+        @media screen and (min-width: 769px) and (max-width: 1100px) {
               .admission {
                 padding: 0 20px;
               }
             }
 
-            @media screen and (min-width: 1101px)  {
+        @media screen and (min-width: 1101px)  {
               .admission, .contact-details {
                 margin: 60px 80px;
               }
             }
+
+       @media screen and (min-width: 600px) and (max-width: 1254px) {
+            .admission-content #purple, #pink {
+              margin-left: 20px;
+            }
+          }
+
+        @media screen and (min-width: 1265px) {
+          .admission-content {
+          padding-top: 50px;
+            }
+          }
         
         

@@ -9,7 +9,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 
-
 body {
     color: var(--color-primary);
     background-color: var(--color-secondary);
@@ -54,6 +53,7 @@ body {
   color: white;
   padding: 10px;
   margin-right: 4%;
+  overflow: hidden;
 }
 
   .header-nav {
@@ -107,15 +107,15 @@ body {
   }
 
 .start-content h1 {
-   font-size: 2.75rem;
-   color: white;
-   margin-bottom: -5px;
+    font-size: 2.75rem;
+    color: white;
+    margin-bottom: -5px;
   
 }
 .start-content p {
-  font-size: 1.5rem;
-  margin-bottom: 40px;
-  color: white;
+   font-size: 1.5rem;
+   margin-bottom: 40px;
+   color: white;
 }
 
 .cta-button {
@@ -151,8 +151,8 @@ body {
 }
 
 .together-galaxy-container {
- width: 100%;
- height: 520px;
+   width: 100%;
+   height: 520px;
 }
 
 .together-galaxy {
@@ -170,15 +170,15 @@ body {
 }
 
 .together-content h2 {
-  padding-bottom: 30px;
+   padding-bottom: 30px;
 }
 
 .together-content p {
-  max-width: 550px;
+   max-width: 550px;
 }
 
 .learn-more a {
- color: white;
+  color: white;
 }
 
 .learn-more2 a {
@@ -494,14 +494,13 @@ body {
       }
     }
 
-
     @media screen and (min-width:655px) and (max-width:900px) {
        .footer {
           margin: 0 10px;
       }
     }
 
-      @media screen and (min-width: 600px) {
+    @media screen and (min-width: 600px) {
         .header {
             justify-content: space-between;
         }
@@ -532,7 +531,6 @@ body {
        }
          
      @media screen and (min-width: 768px) {
-  
      .start-content h1 {
         font-size: 3.5rem;
     }
@@ -556,7 +554,6 @@ body {
        flex-direction: row;
   }
 
-
    .starsclub-content {
        margin-top: 0px;
   }
@@ -578,7 +575,6 @@ body {
       padding-top: 10px;
     }
   }
-
 
   @media screen and (min-width: 769px) and (max-width: 1100px) {
     .together {
