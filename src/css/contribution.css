@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     min-height: 450px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .contribution-content {

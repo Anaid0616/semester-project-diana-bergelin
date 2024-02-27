@@ -179,6 +179,10 @@
         margin-bottom: 40px;
     }
 
+    .footer h4 {
+      font-size: 1.1rem;
+    }
+
       /* media queries */
 
       @media screen and (min-width: 600px){
