@@ -3,7 +3,7 @@
 .cosmology-exhibit {
     margin-top: 40px;
     margin-bottom: 40px;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .cosmology-wrapper {
@@ -13,7 +13,7 @@
 .cosmologyexhibit-content {
     background-color: #D9D9D9;
     width: 100%;
-    min-height: 450px;
+    min-height: 300px;
 }
 
 .cosmology-exhibit h2 {
@@ -24,7 +24,7 @@
 }
 
 .cosmology-exhibit p {
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 20px 30px;
 }
 
 #pink {
@@ -52,7 +52,15 @@
     flex-direction: column-reverse;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 920px) {
+    .cosmology-exhibit {
+        padding: 0 20px;
+    }
+    
+   .cosmologyexhibit-content {
+       min-height: 450px;
+   }
+
    .cosmology-wrapper {
     display: flex;
     justify-content: center;

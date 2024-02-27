@@ -7,6 +7,7 @@
 .mammoth {
     margin-top: 40px;
     min-height: 450px;
+    padding: 0 10px;
 }
 
 .mammoth-content {
@@ -36,6 +37,7 @@
     grid-gap: 30px;
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 0 10px;
   }
 
  .exhibitions-spaces {

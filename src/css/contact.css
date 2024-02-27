@@ -8,6 +8,7 @@
 .admission {
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 0 10px;
   }
 
   .admission-hours {
@@ -86,6 +87,7 @@
     margin-bottom: 40px;
     text-align: center;
     gap: 30px;
+    padding: 0 10px;
 }
 
 .more {
@@ -99,6 +101,9 @@
   background-color: white;
 }
 
+.contact-wrapper {
+  padding: 0 10px;
+}
 .form-details {
     background-color: #FF8484;
     padding: 30px 0px 50px 15%;
@@ -185,7 +190,7 @@
 
       /* media queries */
 
-      @media screen and (min-width: 600px){
+      @media screen and (min-width: 600px) {
         .admission {
           display: flex;
           justify-content: center;
@@ -202,7 +207,6 @@
              justify-content: center;
            }
           }
-      
         
         @media screen and (min-width: 601px) and (max-width: 850px) {
           .admission-img-container {
@@ -214,8 +218,9 @@
           .none {
             display: none;
           }
-       }
-
+        }
+       
+          @media screen and (min-width: 768px){
         .more {
                flex-wrap: wrap;
                justify-content: center;
@@ -254,6 +259,7 @@
           .form-details {
                   padding: 12px 0px 50px 8%;
               }
+            }
         
 
         @media screen and (min-width: 1110px) {
