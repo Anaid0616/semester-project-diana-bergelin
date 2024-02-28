@@ -102,6 +102,25 @@ body {
     text-decoration: underline;
   }
 
+
+    /* index, contact */
+
+  .cta-button {
+    background-color: #6383D5;
+    color: black;
+    font-family: 'Righteous', verdana, sans-serif;
+    font-size: 0.90rem;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+}
+
     /* contact */
 
     .start-headline {

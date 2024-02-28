@@ -44,6 +44,10 @@
   min-height: 450px;
  }
 
+ .exhibitions-spaces:hover {
+  transform: scale(1.01);
+}
+
   .exhibitions a {
     color: black;
     text-decoration: none;

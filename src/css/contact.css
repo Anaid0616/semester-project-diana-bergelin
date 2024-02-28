@@ -1,10 +1,5 @@
 @import url("./global.css");
 
-.contact h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    }
-
 .admission {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -30,6 +25,10 @@
     margin-bottom: 0;
   }
   
+  #purple {
+    background-color: #D386E7;
+  }
+
   #pink {
     background-color: #FF8484;
   }
