@@ -36,7 +36,6 @@
   .admission-content h2, #purple, #pink {
     display: inline-block;
     margin-top: 20px;
-    padding-left: 10px;
     padding-right: 10px;
   }
   
@@ -45,7 +44,7 @@
   }
   
   .ad-text {
-    margin: 10px;
+    margin: 10px 20px;
   }
   
   .admission-content #purple, #pink {
@@ -71,10 +70,6 @@
     font-family: 'Righteous', verdana, sans-serif;
     font-weight: 300;
     max-height: 350px;
-}
-
-.hours h2 {
-    margin-left: 20px;
 }
 
 .hours p {
@@ -162,17 +157,15 @@
         width: 100%;
     }
 
-    .location h3, p {
-        padding-left: 20px;
-    }
-
     .location h3 {
         padding-top: 20px;
+        padding-left: 20px;
         font-size: 1.1rem;
     }
 
     .location p {
         padding-bottom: 30px;
+        padding-left: 20px;
         margin-bottom: -10px;
     }
 

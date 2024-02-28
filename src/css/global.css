@@ -208,7 +208,28 @@ body {
        
         .logo-footer {
             max-width: 190px;
-            margin: 20px 55px 45px 0;
+            margin: 18px 55px 10px 0;
+        }
+
+        .pt a {
+          font-family: 'Mitr', verdana, sans-serif;
+          color: white;
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 0.95rem;
+        }
+
+        .pt a:hover {
+          text-decoration: underline;
+        }
+
+        .pt-logo .pt {
+          margin: -4px 194px -2px 0;
+        }
+
+        .pt-logo .ter {
+          margin-right: 205px;
+          margin-bottom: 10px;
         }
     
         .follow-us {
@@ -229,9 +250,14 @@ body {
             margin-right: -8px;
         }
     
-       .footer p {
+       .visit-adress p {
             font-weight: 300;
-            line-height: 18px;
+            line-height: 10px;
+       }
+
+       .phone-mail {
+        padding: 30px 0 15px 0;
+
        }
     
         .copy {
@@ -267,12 +293,21 @@ body {
        }
  
         .logo-footer {
-           margin: 40px 0 45px 0;
+           margin: 40px 0 20px 0;
       }
  
         .social-media {
            margin-left: 0px;
      }
+
+     .pt-logo .pt {
+      margin: -4px 0 -2px 0;
+    }
+
+    .pt-logo .ter {
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
      }
 
      @media screen and (min-width:655px) and (max-width:900px) {
