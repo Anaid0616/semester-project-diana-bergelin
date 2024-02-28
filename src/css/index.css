@@ -248,8 +248,7 @@
        .start-content p {
          margin-bottom: 20px;
      }
-    }
-
+  }
 
     @media screen and (min-width:655px) {
        .together, .explore, .stars-club, .news {
@@ -349,4 +348,9 @@
        padding: 0 20px;
     }
   }
-  
+
+  @media screen and (min-width: 1850px) {
+    .none {
+      display: none;
+    }
+  }
