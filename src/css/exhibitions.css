@@ -35,17 +35,17 @@
     grid-template-columns: 1fr; 
     margin: auto;
     grid-gap: 30px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
     padding: 0 10px;
   }
 
  .exhibitions-spaces {
-  min-height: 450px;
+     min-height: 450px;
  }
 
  .exhibitions-spaces:hover {
-  transform: scale(1.01);
+    transform: scale(1.01);
 }
 
   .exhibitions a {
@@ -64,6 +64,7 @@
     min-height: 300px;
     width: 100%;
   }
+
   .exhibitions-content h4 {
     font-size: 1.4rem;
     margin: 40px 30px 10px 30px;
@@ -136,13 +137,9 @@
       }
       }
 
-
        @media screen and (min-width: 1100px) {
         .mammoth, .exhibitions {
           margin: 60px 80px;
      }
-
-       .exhibitions {
-        margin-bottom: 60px;
-       }
       }
+      

@@ -193,6 +193,10 @@ body {
             min-width: 100%;
             text-align: center;
         }
+
+        .back-to-header:hover {
+          transform: scale(1.1);
+        }
     
         .bth-button {
             max-width: 50px;
