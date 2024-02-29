@@ -33,10 +33,12 @@
     background-color: #FF8484;
   }
   
-  .admission-content h2, #purple, #pink {
+  .admission-content #purple, #pink {
     display: inline-block;
+    color: black;
     margin-top: 20px;
-    padding-right: 10px;
+    margin-left: 20px;
+    padding: 0 10px 0 10px;
   }
   
   .admission-content p {
@@ -45,11 +47,6 @@
   
   .ad-text {
     margin: 10px 20px;
-  }
-  
-  .admission-content #purple, #pink {
-    color: black;
-    margin-left: 0px;
   }
   
   .admission-img-container {
