@@ -35,7 +35,6 @@
     grid-template-columns: 1fr; 
     margin: auto;
     grid-gap: 30px;
-    margin-top: 10px;
     margin-bottom: 40px;
     padding: 0 10px;
   }
@@ -68,7 +67,7 @@
 
   .exhibitions-content h4 {
     font-size: 1.4rem;
-    margin: 40px 30px 10px 30px;
+    margin: 30px 30px 10px 30px;
     padding: 5px 8px 5px 8px;
   }
   .exhibitions-content .blue-ex {
@@ -88,7 +87,8 @@
   }
 
   .exhibitions-content p {
-    padding: 0 30px 10px 30px;
+    padding: 0 30px 20px 30px;
+    margin-bottom: -10px;
   }
 
   .exhibitons-img-container {
@@ -102,7 +102,6 @@
     height: 100%;
     object-fit: cover;
   }
-
 
   
        /* media queries */
