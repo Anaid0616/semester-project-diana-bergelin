@@ -377,7 +377,7 @@ body {
            }
          }
 
-      @media screen and (max-width:654px) {
+      @media screen and (max-width:865px) {
     
         .footer-wrapper {
            flex-direction: column-reverse;
@@ -402,6 +402,7 @@ body {
       margin-bottom: 10px;
     }
      }
+     
 
      @media screen and (min-width:655px) and (max-width:900px) {
         .footer {
