@@ -1,15 +1,14 @@
 @import url("./global.css");
 
 .start h1 {
-margin-bottom: -20px;
+  margin-bottom: -20px;
 }
 
 .privacy-policy {
-    padding: 2% 15% 5% 15%;
+  padding: 2% 15% 5% 15%;
 }
 
 .privacy-policy h2 {
-   margin-top: 50px;
-   margin-bottom: -8px;
+  margin-top: 50px;
+  margin-bottom: -8px;
 }
-

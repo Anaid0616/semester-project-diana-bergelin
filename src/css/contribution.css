@@ -1,72 +1,70 @@
 @import url("./global.css");
 
 .contribution {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 0 10px;
-  }
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0 10px;
+}
 
+.contribution-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 450px;
+  margin-top: 30px;
+}
+
+.contribution-content {
+  background-color: #7fc3e0;
+  min-height: 300px;
+  width: 100%;
+}
+
+.cc2 {
+  background-color: #fa8fa2;
+}
+
+.cc3 {
+  background-color: #e192f4;
+}
+
+.volounter {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.contribution-content h2 {
+  padding: 40px 0px 10px 40px;
+  margin-top: -20px;
+}
+
+.contribution-content p {
+  padding: 0px 40px 20px 40px;
+}
+
+.contribution-img-container {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+.contribution-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 921px) {
   .contribution-wrapper {
     display: flex;
-    flex-direction: column;
-    min-height: 450px;
-    margin-top: 30px;
-  }
-
-  .contribution-content {
-    background-color: #7FC3E0;
-    min-height: 300px;
-    width: 100%;
-  }
-
-  .cc2 {
-    background-color: #FA8FA2;
-  }
-
-  .cc3 {
-    background-color: #E192F4;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .volounter {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .contribution-content h2 {
-    padding: 40px 0px 10px 40px;
-    margin-top: -20px;
-  }
-
-  .contribution-content p {
-    padding: 0px 40px 20px 40px;
-  }
-
-  .contribution-img-container {
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
-
-  }
-  .contribution-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  
-  @media screen and (min-width: 921px) {
-    .contribution-wrapper {
-       display: flex;
-       flex-direction: row;
-       justify-content: center;
-   }
-
-   .volounter {
     flex-direction: row;
   }
 
   .contribution-content {
-      min-height: 450px;
+    min-height: 450px;
   }
 
   .contribution-content h2 {

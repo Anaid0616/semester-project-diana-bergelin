@@ -1,145 +1,147 @@
 @import url("./global.css");
 
 .nightsky {
-    max-width: 96%;
+  max-width: 96%;
 }
 
 .mammoth {
-    margin-top: 40px;
-    min-height: 450px;
-    padding: 0 10px;
+  margin-top: 40px;
+  min-height: 450px;
+  padding: 0 10px;
 }
 
 .mammoth-content {
-    background-color: black;
-    color: #ffffff;
-    min-height: 300px;
-    width: 100%;
-    padding: 40px;
+  background-color: black;
+  color: #ffffff;
+  min-height: 300px;
+  width: 100%;
+  padding: 40px;
+}
+
+.mammoth-img-container {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.mammoth-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.exhibitions {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  grid-gap: 30px;
+  margin-bottom: 40px;
+  padding: 0 10px;
+}
+
+.exhibitions-spaces {
+  min-height: 450px;
+}
+
+.exhibitions-spaces:hover {
+  transform: scale(1.01);
+}
+
+.exhibitions a {
+  color: black;
+  text-decoration: none;
+}
+
+.exhibitions h3 {
+  grid-column: -1/1;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.exhibitions-content {
+  background-color: #d9d9d9;
+  grid-column: span 1;
+  min-height: 300px;
+  width: 100%;
+}
+
+.exhibitions-content h4 {
+  font-size: 1.4rem;
+  margin: 30px 30px 10px 30px;
+  padding: 5px 8px 5px 8px;
+}
+.exhibitions-content .blue-ex {
+  background-color: #7fc3e0;
+}
+
+.exhibitions-content .pink-ex {
+  background-color: #fa8fa2;
+}
+
+.exhibitions-content .purple-ex {
+  background-color: #e192f4;
+}
+
+.exhibitions-content .blue-ex,
+.pink-ex,
+.purple-ex {
+  display: inline-block;
+}
+
+.exhibitions-content p {
+  padding: 0 30px 20px 30px;
+  margin-bottom: -10px;
+}
+
+.exhibitons-img-container {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.exhibitions-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* media queries */
+
+@media screen and (min-width: 600px) {
+  .mammoth,
+  .exhibitions {
+    padding: 0 20px;
   }
-  
+}
+
+@media screen and (min-width: 921px) {
+  .mammoth {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mammoth-content,
+  .exhibitions-content {
+    min-height: 450px;
+  }
+
   .mammoth-img-container {
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
+    margin-bottom: 0px;
   }
-  
-  .mammoth-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+  .exhibitions-spaces {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .exhibitions {
-    display: grid;
-    grid-template-columns: 1fr; 
-    margin: auto;
-    grid-gap: 30px;
-    margin-bottom: 40px;
-    padding: 0 10px;
+    grid-template-columns: repeat(auto-fit, minmax(850px, 6fr));
   }
-
- .exhibitions-spaces {
-     min-height: 450px;
- }
-
- .exhibitions-spaces:hover {
-    transform: scale(1.01);
 }
 
-  .exhibitions a {
-    color: black;
-    text-decoration: none;
+@media screen and (min-width: 1100px) {
+  .mammoth,
+  .exhibitions {
+    margin: 60px 80px;
   }
-
-  .exhibitions h3 {
-    grid-column: -1/1;
-    font-size: 1.5rem;
-    margin: 10px 0;
-  }
-
-  .exhibitions-content {
-    background-color: #D9D9D9;
-    grid-column: span 1;
-    min-height: 300px;
-    width: 100%;
-  }
-
-  .exhibitions-content h4 {
-    font-size: 1.4rem;
-    margin: 30px 30px 10px 30px;
-    padding: 5px 8px 5px 8px;
-  }
-  .exhibitions-content .blue-ex {
-    background-color: #7FC3E0;
-  }
-
-  .exhibitions-content .pink-ex {
-    background-color: #FA8FA2;
-  }
-
-  .exhibitions-content .purple-ex {
-    background-color: #E192F4;
-  }
-
-  .exhibitions-content .blue-ex, .pink-ex, .purple-ex {
-    display: inline-block;
-  }
-
-  .exhibitions-content p {
-    padding: 0 30px 20px 30px;
-    margin-bottom: -10px;
-  }
-
-  .exhibitons-img-container {
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
-  }
-
-  .exhibitions-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  
-       /* media queries */
-
-       
-    @media screen and (min-width:600px) {
-      .mammoth, .exhibitions {
-         padding: 0 20px;
-      }
-    }
-
-       @media screen and (min-width: 921px) {
-        .mammoth {
-          display: flex;
-          justify-content: center;
-      }
-
-      .mammoth-content, .exhibitions-content {
-        min-height: 450px;
-      }
-
-      .mammoth-img-container {
-          margin-bottom: 0px
-      }
-      
-       .exhibitions-spaces {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-      }
-
-      .exhibitions {
-         grid-template-columns: repeat(auto-fit, minmax(850px, 6fr));
-      }
-      }
-
-       @media screen and (min-width: 1100px) {
-        .mammoth, .exhibitions {
-          margin: 60px 80px;
-     }
-      }
-      
+}

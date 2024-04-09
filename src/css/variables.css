@@ -2,7 +2,7 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
-  --color-primary: black ;
+  --color-primary: black;
   --color-secondary: white;
   font-size: 16px;
 }

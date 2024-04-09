@@ -1,52 +1,52 @@
 @import url("./global.css");
 
-  /* index */
+/* index */
 
-  .museum-start {
-    background-image: url(../../images/futureai.jpg);
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    min-height: 500px; 
-    margin-top: -16px;
-  }
+.museum-start {
+  background-image: url(../../images/futureai.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-height: 500px;
+  margin-top: -16px;
+}
 
 .start-content h1 {
-    font-size: 2.75rem;
-    margin-bottom: -5px;
-  
+  font-size: 2.75rem;
+  margin-bottom: -5px;
 }
+
 .start-content h2 {
-   font-size: 1.5rem;
+  font-size: 1.5rem;
   margin-bottom: 30px;
 }
 
 .museum-start .start-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: absolute;
-    max-width: 500px;
-    top: 90px;
-    left: 50%;
-    transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  max-width: 500px;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .together {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 520px;
-    margin: 30px 0px;
-    padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 520px;
+  margin: 30px 0px;
+  padding: 0 10px;
 }
 
 .together-galaxy-container {
-   width: 100%;
-   height: 520px;
+  width: 100%;
+  height: 520px;
 }
 
 .together-galaxy {
@@ -64,11 +64,11 @@
 }
 
 .together-content h2 {
-   padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .together-content p {
-   max-width: 550px;
+  max-width: 550px;
 }
 
 .learn-more a {
@@ -106,23 +106,23 @@
 
 .explore-content {
   width: 100%;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .explore-content h3 {
   display: inline-block;
-  background-color:#FA8FA2;
+  background-color: #fa8fa2;
   padding: 10px;
   margin-left: 40px;
   margin-bottom: -15px;
 }
 
 #blue {
-  background-color: #7FC3E0;
+  background-color: #7fc3e0;
 }
 
 #purple {
-  background-color: #E192F4;
+  background-color: #e192f4;
 }
 
 #learn1 {
@@ -154,15 +154,15 @@
 }
 
 .starsclub-content h4 {
-    display: inline-block;
-    background-color: #7FC3E0;
-    color: black;
-    padding: 10px;
-    font-size: 1.5rem;
+  display: inline-block;
+  background-color: #7fc3e0;
+  color: black;
+  padding: 10px;
+  font-size: 1.5rem;
 }
 
 .stars-text {
-  font-family: 'Righteous', verdana, sans-serif;
+  font-family: "Righteous", verdana, sans-serif;
   font-size: 1.2rem;
   margin-bottom: 40px;
 }
@@ -189,109 +189,112 @@
 }
 
 .news-content p {
-    padding: 0 20px 20px 20px;
-  }
+  padding: 0 20px 20px 20px;
+}
 
-  .news h4 {
-    font-size: 1.8rem;
-  }
+.news h4 {
+  font-size: 1.8rem;
+}
 
-  .news-content {
-    margin-bottom: 10px;
-  }
+.news-content {
+  margin-bottom: 10px;
+}
 
-   
 @media screen and (max-width: 515px) {
-       .museum-start .start-content {
-         top: 80px;
-      }
-
-       .start-content p {
-         margin-bottom: 20px;
-     }
+  .museum-start .start-content {
+    top: 80px;
   }
 
-    @media screen and (min-width:655px) {
-       .together, .explore, .stars-club {
-          padding: 0 20px;
-      }
-    }
+  .start-content p {
+    margin-bottom: 20px;
+  }
+}
 
-     @media screen and (max-width: 767px) {
-       .starsclub-container {
-        height: 400px;
-      }
-       }
-         
-     @media screen and (min-width: 768px) {
-     .start-content h1 {
-        font-size: 3.5rem;
-    }
+@media screen and (min-width: 655px) {
+  .together,
+  .explore,
+  .stars-club {
+    padding: 0 20px;
+  }
+}
 
-    .together {
-        flex-direction: row;
-   }
+@media screen and (max-width: 767px) {
+  .starsclub-container {
+    height: 400px;
+  }
+}
 
-    .explore {
-       display: flex;
-       flex-wrap: wrap;
-       gap: 1%;
+@media screen and (min-width: 768px) {
+  .start-content h1 {
+    font-size: 3.5rem;
   }
 
-    .explore-content {
-       flex: 1 1 400px; 
-       margin-top: 10px;
+  .together {
+    flex-direction: row;
   }
 
-   .stars-club {
-       flex-direction: row;
+  .explore {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
   }
 
-   .starsclub-content {
-       margin-top: 0px;
+  .explore-content {
+    flex: 1 1 400px;
+    margin-top: 10px;
+  }
+
+  .stars-club {
+    flex-direction: row;
+  }
+
+  .starsclub-content {
+    margin-top: 0px;
   }
 
   .news-content {
     margin-bottom: 0px;
   }
-  }
+}
 
-  @media screen and (min-width: 972px) {
-    .museum-start .start-content {
-      top: 110px;
+@media screen and (min-width: 972px) {
+  .museum-start .start-content {
+    top: 110px;
   }
 }
 
-  @media screen and (min-width: 850px) and (max-width: 1100px) {
-    .stars-club {
-      padding-top: 10px;
-    }
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+  .stars-club {
+    padding-top: 10px;
   }
-
-  @media screen and (min-width: 769px) and (max-width: 1100px) {
-    .together {
-        overflow: hidden;
-        margin: 40px 0px;
-    }
-
-    .together-galaxy-container {
-        height: auto;
-  }
-
-    .stars-club {
-        margin-top: 20px;
-  }
-  }
-
-  @media screen and (min-width: 200px) and (max-width: 799px) {
-    .together-galaxy-container {
-       overflow: hidden;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+  .together {
+    overflow: hidden;
+    margin: 40px 0px;
   }
 
-  @media screen and (min-width: 1100px) {
-   .together, .stars-club, .explore {
-       margin: 60px 80px;
+  .together-galaxy-container {
+    height: auto;
+  }
+
+  .stars-club {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 799px) {
+  .together-galaxy-container {
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .together,
+  .stars-club,
+  .explore {
+    margin: 60px 80px;
   }
 
   .together {
@@ -299,12 +302,12 @@
   }
 
   .stars-club {
-       padding: 0 20px;
-    }
+    padding: 0 20px;
   }
+}
 
-  @media screen and (min-width: 1850px) {
-    .none {
-      display: none;
-    }
+@media screen and (min-width: 1850px) {
+  .none {
+    display: none;
   }
+}
