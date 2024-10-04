@@ -5,7 +5,6 @@
 A responsive, accessible, and visually engaging website for the fictional **Stockholm Science Museum**, built as part of the **Front-End Development** course at **Noroff School of Technology and Digital Media**.
 
 [Live Site](https://anaid0616.github.io/semester-project-diana-bergelin/)
-![GitHub repo size](https://img.shields.io/github/repo-size/anaid0616/semester-project-diana-bergelin)
 
 ---
 
@@ -103,13 +102,13 @@ Alternatively, you can use a live server:
 ## Features
 
 - Responsive Design: The layout is fully responsive, working seamlessly across different screen sizes (mobile, tablet, and large screens).
-- 
+  
 - Accessible Content: The project adheres to accessibility guidelines, making it usable for people with disabilities.
-- 
+  
 - Modern Visuals: Engaging and vibrant design that appeals to a younger audience while being modern and informative.
-- 
+  
 - Cross-Browser Compatibility: The site is designed to be functional on various web browsers.
-- 
+  
 - Semantic HTML and DRY CSS: The site uses semantic HTML for structured content, and the CSS adheres to the DRY principle to ensure maintainability.
 
 ---
