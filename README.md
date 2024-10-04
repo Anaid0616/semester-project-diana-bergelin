@@ -133,7 +133,41 @@ This project is not open-source as it's part of a school assignment. Please cont
 ---
 
 ## Acknowledgments
-Special thanks to:
+**Special thanks to:**
+
+Our teacher Talitha for really listening to what we need and doing everything to help us understand, like extra videos and extra checks to see if we got it. I really appreciate it.
+
+My friend Jimmy Rickardsson for helping when i get stuck.
+
+ChatGPT for translating, helping with code problems and new texts.
+
+My classmates help.
+
+Our teacher Bonita for helping me with contrast issues.
+
+My family and friends for design opinions.
+
+**Resources:**
+YouTube
+Mollify
+Stack Overflow
+
+Img:
+Unsplash -
+– Galaxy night sky Photo by Alexander Andrews on Unsplash.
+- Robot Photo by Possessed Photography on Unsplash
+  
+Midjourney –  
+- Index page: first image with ai robot, explore together, for kids, for school, stars club.
+- Contact: Hour's image.
+- Exhibitions: Banner, Ecology and Dinosaurs.
+- One exhibit: Space satellite and Galaxy.
+- Contribution: Support and internship.
+
+  Alt text - www.ahrefs.com Alt generator
+
+Websites I found my inspiration from: 
+Abba the museum (the colors and columns with image and texts), Tellus Spark (design and colors behind headlines) and Tom Tits (the border on header and footer and the go to header button).
 
 ---
 [Back to Top](#stockholm-science-museum---semester-project-1)
