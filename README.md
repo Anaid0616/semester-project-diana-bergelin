@@ -100,9 +100,13 @@ Alternatively, you can use a live server:
 ## Features
 
 - Responsive Design: The layout is fully responsive, working seamlessly across different screen sizes (mobile, tablet, and large screens).
+- 
 - Accessible Content: The project adheres to accessibility guidelines, making it usable for people with disabilities.
+- 
 - Modern Visuals: Engaging and vibrant design that appeals to a younger audience while being modern and informative.
+- 
 - Cross-Browser Compatibility: The site is designed to be functional on various web browsers.
+- 
 - Semantic HTML and DRY CSS: The site uses semantic HTML for structured content, and the CSS adheres to the DRY principle to ensure maintainability.
 
 ---
@@ -116,6 +120,7 @@ This is a school project, and contributions are not required. However, if you ha
 Feel free to reach out for any questions or collaboration:
 
 Email: diaber01800@stud.noroff.no
+
 [LinkedIn](https://www.linkedin.com/in/diana-b-4209a72ba/)
 
 
@@ -130,4 +135,5 @@ This project is not open-source as it's part of a school assignment. Please cont
 Special thanks to:
 
 ---
-[Back to Top](#Stockholm-Science-Museum-Semester-Project-1)
+[Back to Top](#stockholm-science-museum---semester-project-1)
+
