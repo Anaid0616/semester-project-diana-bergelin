@@ -129,3 +129,5 @@ This project is not open-source as it's part of a school assignment. Please cont
 ## Acknowledgments
 Special thanks to:
 
+---
+[Back to Top](#Stockholm-Science-Museum-Semester-Project-1)
