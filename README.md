@@ -148,18 +148,19 @@ This project is not open-source as it's part of a school assignment. Please cont
 ***My family and friends***, for design opinions.
 
 
-**Resources:**
+### Resources:
 
 YouTube, Mollify and Stack Overflow
 
 
 ***Img:***
 
-<u>Unsplash</u>
+Unsplash
+
 – Galaxy night sky Photo by Alexander Andrews on Unsplash.
 - Robot Photo by Possessed Photography on Unsplash
   
-<u>Midjourney</u> 
+Midjourney
 - Index page: first image with ai robot, explore together, for kids, for school, stars club.
 - Contact: Hour's image.
 - Exhibitions: Banner, Ecology and Dinosaurs.
