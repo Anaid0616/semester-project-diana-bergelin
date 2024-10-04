@@ -1,10 +1,10 @@
 # Stockholm Science Museum - Semester Project 1
-
+**Diana Bergelin**
 ![image](https://github.com/user-attachments/assets/74d1d1ff-9512-4da8-afb6-4bbd45b9834a)
 
 A responsive, accessible, and visually engaging website for the fictional **Stockholm Science Museum**, built as part of the **Front-End Development** course at **Noroff School of Technology and Digital Media**.
 
-[Live Site](https://anaid0616.github.io/semester-project-diana-bergelin/)
+[Live Site Stockholm Science Museum](https://anaid0616.github.io/semester-project-diana-bergelin/)
 
 ---
 
@@ -120,7 +120,7 @@ This is a school project, and contributions are not required. However, if you ha
 ## Contact
 Feel free to reach out for any questions or collaboration:
 
-Email: diaber01800@stud.noroff.no
+Email: diana.bergelin@live.se
 
 [LinkedIn](https://www.linkedin.com/in/diana-b-4209a72ba/)
 
