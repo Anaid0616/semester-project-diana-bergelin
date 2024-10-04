@@ -1,5 +1,6 @@
 # Stockholm Science Museum - Semester Project 1
 **Diana Bergelin**
+
 ![image](https://github.com/user-attachments/assets/74d1d1ff-9512-4da8-afb6-4bbd45b9834a)
 
 A responsive, accessible, and visually engaging website for the fictional **Stockholm Science Museum**, built as part of the **Front-End Development** course at **Noroff School of Technology and Digital Media**.
