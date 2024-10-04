@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/74d1d1ff-9512-4da8-afb6-4bbd45b9834a)
 
-A responsive, accessible, and visually engaging website for the **Stockholm Science Museum**, built as part of the **Front-End Development** course at **Noroff School of Technology and Digital Media**.
+A responsive, accessible, and visually engaging website for the fictional **Stockholm Science Museum**, built as part of the **Front-End Development** course at **Noroff School of Technology and Digital Media**.
 
 [Live Site](https://anaid0616.github.io/semester-project-diana-bergelin/)
 
