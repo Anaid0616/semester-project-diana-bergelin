@@ -135,37 +135,31 @@ This project is not open-source as it's part of a school assignment. Please cont
 ## Acknowledgments
 **Special thanks to:**
 
-**Our teacher Talitha**, for really listening to what we need and doing everything to help us understand, like extra videos and extra checks to see if we got it. I really appreciate it.
+***Our teacher Talitha***, for doing everything to help us understand, like extra videos and extra checks to see if we got it. I really appreciate it.
 
-**My friend Jimmy Rickardsson**, for helping when i get stuck.
+***My friend Jimmy Rickardsson***, for helping when i get stuck.
 
-**ChatGPT**, for translating, helping with code problems and new texts.
+***ChatGPT***, for translating, helping with code problems and new texts.
 
-**My classmates**, for helping with problem solving.
+***My classmates***, for helping with problem solving.
 
-**Our teacher Bonita**, for helping me with contrast issues.
+***Our teacher Bonita***, for helping me with contrast issues.
 
-**My family and friends**, for design opinions.
+***My family and friends***, for design opinions.
 
 
 **Resources:**
 
-YouTube
-
-Mollify
-
-Stack Overflow
+YouTube, Mollify and Stack Overflow
 
 
-Img:
+***Img:***
 
-Unsplash -
-
+<u>Unsplash</u>
 – Galaxy night sky Photo by Alexander Andrews on Unsplash.
 - Robot Photo by Possessed Photography on Unsplash
   
-Midjourney –  
-
+<u>Midjourney</u> 
 - Index page: first image with ai robot, explore together, for kids, for school, stars club.
 - Contact: Hour's image.
 - Exhibitions: Banner, Ecology and Dinosaurs.
@@ -173,10 +167,10 @@ Midjourney –
 - Contribution: Support and internship.
 
 
-  Alt text - www.ahrefs.com Alt generator
+  ***Alt tex***t - www.ahrefs.com Alt generator
 
 
-Websites I found my inspiration from: 
+***Websites I found my inspiration from:***
 Abba the museum (the colors and columns with image and texts), Tellus Spark (design and colors behind headlines) and Tom Tits (the border on header and footer and the go to header button).
 
 ---
