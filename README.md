@@ -152,12 +152,12 @@ This project is not open-source as it's part of a school assignment. Please cont
 
 YouTube, Mollify and Stack Overflow
 
+ ***Alt tex***t - www.ahrefs.com Alt generator
 
 ***Img:***
 
 Unsplash
-
-– Galaxy night sky Photo by Alexander Andrews on Unsplash.
+- Galaxy night sky Photo by Alexander Andrews on Unsplash.
 - Robot Photo by Possessed Photography on Unsplash
   
 Midjourney
@@ -167,8 +167,6 @@ Midjourney
 - One exhibit: Space satellite and Galaxy.
 - Contribution: Support and internship.
 
-
-  ***Alt tex***t - www.ahrefs.com Alt generator
 
 
 ***Websites I found my inspiration from:***
